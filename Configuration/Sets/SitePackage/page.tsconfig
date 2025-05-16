@@ -1,0 +1,21 @@
+@import './PageTsConfig/BackendLayouts/'
+
+RTE {
+    default {
+        preset = t3v13_fluid
+    }
+}
+
+TCEFORM {
+    pages {
+
+    }
+    tt_content {
+
+    }
+}
+
+TCEMAIN {
+
+}
+

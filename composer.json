@@ -1,0 +1,23 @@
+{
+    "name": "mysoft/t3v13-fluid",
+    "type": "typo3-cms-extension",
+    "description": "My TYPO3 v13 fluid-based extension",
+    "homepage": "https://github.com/muratyasar",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^13.4",
+        "typo3/cms-rte-ckeditor": "^13.4",
+        "typo3/cms-fluid-styled-content": "^13.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mysoft\\T3v13Fluid\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3v13_fluid"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+name: mysoft/t3v13-fluid
+label: 't3v13-fluid'
+dependencies:
+  - typo3/fluid-styled-content
+  - typo3/fluid-styled-content-css
